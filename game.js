@@ -20,6 +20,7 @@ startGame.addEventListener("click", e => {
 
   started = true;
   startGame.textContent = "Good Luck!";
+  startGame.style.pointerEvents = "none";
   scoreBar.textContent = `score: ${score}`;
 });
 
